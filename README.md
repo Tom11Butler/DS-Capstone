@@ -23,10 +23,11 @@ The files in the repository are:
 
 - **EDA.ipynb**: the Jupyter notebook used for exploring the small sample of the data.
 - **Sample-Model-Build.ipynb**: the Jupyter notebook used for developing the models locally.
+- **Sparkify-EMR.ipynb**: the Jupyter notebook used to interact with the EMR cluster. It has a streamlined layout to the notebook developed locally.
 
 ## 3. Tools Used
 
-The packages used in this project are as follows:
+The tools used in this project are as follows:
 
 - **AWS EMR**: Elastic Map-Reduce cluster of 3 m5.xlarge notes to handle the full 12GB dataset.
     - Used `emr-5.29.0` as I ran into connection issues on version 30.
@@ -35,6 +36,26 @@ The packages used in this project are as follows:
     - Proceeded without an EC2 key pair.
 - **PySpark**: version as per the distribution on the cluster above. On my local machine it was PySpark 3.0.0.
 - **Python 3.7.6**: this is the version used locally on my machine in developing the notebooks.
+
+The Python libraries used in this project were:
+
+- pandas
+- json
+- seaborn
+- matplotlib
+- datetime
+- time
+
+The PySpark libraries used in this project were:
+
+- pyspark.sql
+- pyspark.sql.types
+- pyspark.sql.functions
+- pyspark.ml.feature
+- pyspark.ml.classification
+- pyspark.ml.evaluation
+- pyspark.mllib.evaluation
+- pyspark.ml.tuning
 
 ## 4. Results Summary
 
