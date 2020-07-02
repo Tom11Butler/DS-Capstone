@@ -2,6 +2,8 @@
 
 This project contains the files for the implementation of the Data Science Nanodegree Capstone Project with Udacity.
 
+Supporting [Medium Post](https://medium.com/@Tom_Butler/modelling-music-app-churn-2254eb97bdee).
+
 # Table of Contents
 
 1. [Motivation](#1.-Motivation)
